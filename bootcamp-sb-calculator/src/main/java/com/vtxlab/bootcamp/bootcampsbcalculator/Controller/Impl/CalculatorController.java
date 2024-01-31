@@ -9,8 +9,9 @@ import com.vtxlab.bootcamp.bootcampsbcalculator.Controller.CalculatorOperation;
 import com.vtxlab.bootcamp.bootcampsbcalculator.Service.CalculatorService;
 import com.vtxlab.bootcamp.bootcampsbcalculator.Service.Impl.CalculatorServiceImpl;
 
-@Controller
-@ResponseBody
+// @Controller
+// @ResponseBody
+@RestController
 @RequestMapping(value = "/api/v1")
 public class CalculatorController implements CalculatorOperation {
 
